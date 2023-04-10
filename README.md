@@ -1,2 +1,5 @@
 # shiny.wellplates
-R bindings to [react-well-plates](https://www.npmjs.com/package/react-well-plates) 
+
+R bindings to [react-well-plates](https://www.npmjs.com/package/react-well-plates)
+
+![](shiny.wellplates_screenshot.png)
