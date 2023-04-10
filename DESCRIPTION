@@ -1,0 +1,16 @@
+Package: shiny.wellplates
+Title: Well Plates UI for Shiny Apps
+Version: 0.0.0.9000
+Authors@R: 
+    person("Takayuki", "Osabe", , "takayukiosabe@gmail.com", role = c("aut", "cre"))
+Description:  
+    This package provides well-plate UI components for Shiny applications.
+    This is depend on `react-well-plates` javascript library.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    htmltools,
+    shiny,
+    shiny.react
