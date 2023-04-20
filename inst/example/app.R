@@ -16,15 +16,14 @@ ui <- fluidPage(
             )
         ),
         column(width = 6,
-            tags$h2("94 well plate picker"),
-            WellPicker.shinyInput(
+            tags$h2("96 well plate picker"),
+            ColorfullWellPicker(
               "picker",
               rows = 8,
               columns = 12,
-              wellSize = 30,
-              disabled = c(0, 1, 2),
-              renderText = JS("({index}) => { return index; }")
+              colors = rep(RColorBrewer::brewer.pal(n = 8, "Pastel1"), each=12)
             ),
+            tags$h2("selected well indexes"),
             verbatimTextOutput("selectedWellIndexes")
         )
     )

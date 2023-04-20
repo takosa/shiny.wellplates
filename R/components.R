@@ -34,3 +34,6 @@ WellPlate <- component("WellPlate")
 
 #' @export
 WellPicker.shinyInput <- input("MultiWellPicker", integer(0L))
+
+#' @export
+ColorfullWellPicker <- input("ColorfullWellPicker", integer(0L))
