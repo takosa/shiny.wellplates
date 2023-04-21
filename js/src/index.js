@@ -10,7 +10,7 @@ const MultiWellPicker = InputAdapter(ReactWellPlates.MultiWellPicker, (value, se
 function ColorfullWellPickerFun({value, onChange, rows, columns, colors, ...props}) {
   const wellPickerStyle = ({ index, booked, disabled, selected, wellPlate }) => {
     let styles = {};
-    styles.borderWidth = '2px';
+    styles.borderColor = 'grey';
     if (booked) {
       styles.borderColor = 'orange';
     }
@@ -36,6 +36,7 @@ function ColorfullWellPickerFun({value, onChange, rows, columns, colors, ...prop
     columns: columns,
     style: wellPickerStyle,
     renderText: wellPickerText,
+    ...props
   }
   );
   return wellpicker;
