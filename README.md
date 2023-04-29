@@ -7,8 +7,10 @@ using [shiny.react](https://appsilon.github.io/shiny.react/).
 
 ## Installation
 
+Run the following code to install this package.
+
 ```
-devtools::install_github("Appsilon/shiny.react")
+devtools::install_github("takosa/shiny.wellplates")
 ```
 
 ## Usage
