@@ -13,6 +13,10 @@ Run the following code to install this package.
 devtools::install_github("takosa/shiny.wellplates")
 ```
 
+## Example 
+
+You can try the example app [here](https://takosa.shinyapps.io/ShinyWellplatesExample/).
+
 ## Usage
 
 `WellPlate` function is a simple binding to the `WellPlate` component in react-well-plates.
